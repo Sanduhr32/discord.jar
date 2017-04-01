@@ -51,6 +51,8 @@ DiscordAPI api = new DiscordBuilder("email", "pass").build().login();
 
 DiscordAPI api = new DiscordBuilder("email", "pass").build();
 api.login();
+
+DiscordAPI api = new DiscordBuilder("token").build().login();
 ```
 
 # Using the event manager
